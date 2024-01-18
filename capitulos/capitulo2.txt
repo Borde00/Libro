@@ -1,0 +1,1 @@
+El flujo de trabajo b sico con Git consiste en: 1-Hacer cambios en el repositorio. 2-A¤adir los cambios a la zona de intercambiio temportal. 3-Hacer un commit de las cambios 
