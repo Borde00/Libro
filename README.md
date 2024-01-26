@@ -101,22 +101,22 @@ Git log
 
 Ejercicio 5
 
-Git branch bibliografia 
-Git switch bibliografia 
-echo Scott Chacon and Ben Straub. Pro Git. Apress. > bibliografia.txt 
-echo Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt 
-Git add bibliografia.txt 
-Git commit -m “Añadida nueva referencia bibliográfica” 
-Git checkout master 
-echo Chacon, S. and Straub, B. Pro Git. Apress > bibliografia.txt 
-echo Loeliger, J. and McCullough, M. Version control with Git. >> bibliografia.txt 
-Git add bibliografia.txt 
+Git branch bibliografia
+Git switch bibliografia
+echo Scott Chacon and Ben Straub. Pro Git. Apress. > bibliografia.txt
+echo Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt
+Git add bibliografia.txt
+Git commit -m “Añadida nueva referencia bibliográfica”
+Git checkout master
+echo Chacon, S. and Straub, B. Pro Git. Apress > bibliografia.txt
+echo Loeliger, J. and McCullough, M. Version control with Git. >> bibliografia.txt
+Git add bibliografia.txt
 Git commit –m “Añadida nueva referencia bibliográfica” 
-Git merge bibliografia 
-Echo Chacon, S. and Straub, B. Pro Git. Apress. > bibliografia.txt  
-Echo Loeliger, J. and McCullough, M. Version control with Git. >> bibliografia.txt 
-Echo Hodson, R. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt 
-Git add bibliografia 
+Git merge bibliografia
+Echo Chacon, S. and Straub, B. Pro Git. Apress. > bibliografia.txt
+Echo Loeliger, J. and McCullough, M. Version control with Git. >> bibliografia.txt
+Echo Hodson, R. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt
+Git add bibliografia
 Git commit –m “Resuelto conflicto de bibliografía” 
 Git log
 
