@@ -120,7 +120,7 @@ Git add bibliografia
 Git commit –m “Resuelto conflicto de bibliografía” 
 Git log
 
-Práctica cuarta: EJERCICIOS DE REPOSITORIOS REMOTOS
+Cuarta práctica: EJERCICIOS DE REPOSITORIOS REMOTOS
 
 Ejercicio 1: 
 
@@ -153,5 +153,55 @@ git commit -m "Añadir nuevo autor"
 git piush origin autoria
 Vamos al repositorio y le damos al compare y pull reques y esperamos, cuando se complete la solicitud le damos a pull request.
 
+Quienta práctica:EJERCICIOS DE DESHACER CAMBIOS 
 
+Ejercicio 1
+
+notepad indice.txt
+git status
+git checkout --indice.txt
+git status
+
+Ejercicio 2
+
+notepad indice.txt
+git add .
+git status
+git reset indice.txt
+git status
+git checkout --indice.txt
+git status
+
+Ejercicio 3
+
+notepad indice.txt
+rm capitulo3.txt
+echo algo >> capitulo4.txt
+git add .
+git status
+git reset
+git status
+git reset 
+git status
+git checkout --.
+git status
+git clean -f
+git status
+
+Ejercicio 4
+
+notepad indice.txt
+rm capitulo3.txt
+git add .
+git commit -a "Borrado accidental"
+git status
+git log
+git reset --soft HEAD~1
+git status
+git commit -m "Corrado accidental"
+git status
+git log
+git reset --hard HEAD~1
+git log
+git status
 
