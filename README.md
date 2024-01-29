@@ -124,4 +124,34 @@ Práctica cuarta: EJERCICIOS DE REPOSITORIOS REMOTOS
 
 Ejercicio 1: 
 
-git branch libro-git
+Creammos un nuevo repositorio con la interfaz grafica de GitHub llamada Libro-git
+git remote add + la url del github
+git remote -v 
+
+Ejercicio 2 
+
+git push + el url del repositorio de github
+
+Ejercicio 3  
+
+git clone url del repositorio
+echo Adelin bordeinuadelin@gmail.com >> autores.txt
+git add .
+git commit -m "Añadir autor"
+git push origin main
+
+Ejercicio 4 
+
+Vamos al repositorio /Libro-git 
+Le damos al botón Fork que se encuentra a la derecha de la pantalla, para copiar el repositorio.
+git clone + url del repositorio
+crear una rama llamada autoria
+git checkout -b autorio
+echo algo que poner >> autores.txt
+git add .
+git commit -m "Añadir nuevo autor"
+git piush origin autoria
+Vamos al repositorio y le damos al compare y pull reques y esperamos, cuando se complete la solicitud le damos a pull request.
+
+
+
