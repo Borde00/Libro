@@ -124,7 +124,7 @@ Cuarta práctica: EJERCICIOS DE REPOSITORIOS REMOTOS
 
 Ejercicio 1: 
 
-Creammos un nuevo repositorio con la interfaz grafica de GitHub llamada Libro-git
+Creamos un nuevo repositorio con la interfaz grafica de GitHub llamada Libro-git
 git remote add + la url del github
 git remote -v 
 
@@ -153,7 +153,7 @@ git commit -m "Añadir nuevo autor"
 git piush origin autoria
 Vamos al repositorio y le damos al compare y pull reques y esperamos, cuando se complete la solicitud le damos a pull request.
 
-Quienta práctica:EJERCICIOS DE DESHACER CAMBIOS 
+Quienta práctica: EJERCICIOS DE DESHACER CAMBIOS 
 
 Ejercicio 1
 
